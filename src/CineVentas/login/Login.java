@@ -1,5 +1,7 @@
 package CineVentas.login;
 
-public class Login {
+import javax.swing.*;
 
+public class Login extends JFrame {
+    private JPanel panel1;
 }
