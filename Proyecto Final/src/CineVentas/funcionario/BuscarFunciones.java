@@ -1,6 +1,21 @@
 package CineVentas.funcionario;
 
-public class BuscarFunciones {
+import javax.swing.*;
 
-    //eh
+public class BuscarFunciones extends JFrame {
+    private JPanel panelBuscarFunciones;
+    public BuscarFunciones() {
+        setTitle("Buscar Funciones");
+        setSize(300, 300);
+
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            setContentPane(panelBuscarFunciones);
+            setLocationRelativeTo(null);
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(()->{
+            new BuscarFunciones().setVisible(true);
+        });
+    }
 }
