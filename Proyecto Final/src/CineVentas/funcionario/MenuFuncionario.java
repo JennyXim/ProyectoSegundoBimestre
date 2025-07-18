@@ -4,6 +4,11 @@ import javax.swing.*;
 
 public class MenuFuncionario extends JFrame {
     private JPanel panelMenuFuncionario;
+    private JButton btnBuscarFunciones;
+    private JButton btnVenderBoletos;
+    private JButton btnModificarVenta;
+    private JButton btnVerClientes;
+    private JButton btnCerrarSesion;
 
     public MenuFuncionario() {
         setTitle("Menú");
