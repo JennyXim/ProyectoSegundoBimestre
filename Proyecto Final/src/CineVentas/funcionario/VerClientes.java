@@ -4,6 +4,9 @@ import javax.swing.*;
 
 public class VerClientes extends JFrame {
     private JPanel panelVerClientes;
+    private JTextField txtVerClientes;
+    private JButton btnBuscar;
+    private JTable tbVerClientes;
 
     public VerClientes() {
         setTitle("Ver clientes");
