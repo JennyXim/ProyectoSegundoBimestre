@@ -4,11 +4,11 @@ import javax.swing.*;
 
 public class BuscarFunciones extends JFrame {
     private JPanel panelBuscarFunciones;
-    private JTable table1;
-    private JButton cerrarSesionButton;
-    private JButton venderButton;
-    private JButton buscarButton;
-    private JTextField textField1;
+    private JTable tbBuscarFunciones;
+    private JButton btnCerrarSesion;
+    private JButton btnVender;
+    private JButton btnBuscar;
+    private JTextField txtBuscar;
 
     public BuscarFunciones() {
         setTitle("Buscar Funciones");

@@ -15,13 +15,13 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="1434a" class="javax.swing.JTable" binding="table1" default-binding="true">
+          <component id="1434a" class="javax.swing.JTable" binding="tbBuscarFunciones">
             <constraints/>
             <properties/>
           </component>
         </children>
       </scrollpane>
-      <component id="4bf7c" class="javax.swing.JButton" binding="cerrarSesionButton" default-binding="true">
+      <component id="4bf7c" class="javax.swing.JButton" binding="btnCerrarSesion">
         <constraints>
           <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="85" height="34"/>
@@ -31,7 +31,7 @@
           <text value="Cerrar Sesion"/>
         </properties>
       </component>
-      <component id="76a66" class="javax.swing.JButton" binding="venderButton" default-binding="true">
+      <component id="76a66" class="javax.swing.JButton" binding="btnVender">
         <constraints>
           <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -39,7 +39,7 @@
           <text value="Vender"/>
         </properties>
       </component>
-      <component id="c4271" class="javax.swing.JButton" binding="buscarButton" default-binding="true">
+      <component id="c4271" class="javax.swing.JButton" binding="btnBuscar">
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -55,7 +55,7 @@
           <text value="Buscar:"/>
         </properties>
       </component>
-      <component id="7c0c7" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+      <component id="7c0c7" class="javax.swing.JTextField" binding="txtBuscar">
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
